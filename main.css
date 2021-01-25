@@ -23,6 +23,12 @@ body {
   }
 }
 
+@media (min-width: 992px) {
+  body {
+    font-size: 18px;
+  }
+}
+
 .t-bg-red {
   background-color: #f72211;
 }
@@ -99,6 +105,7 @@ body {
  .topbar-login {
    text-transform: uppercase;
    font-weight: 700;
+   cursor: pointer;
  }
 
  @media (min-width: 992px) {
@@ -121,6 +128,11 @@ body {
   flex-grow: 1;
 }
 
+.pagenav-item:hover {
+  cursor: pointer;
+  color: #f72211;
+}
+
 .pagenav-item > li {
   border: none;
 }
@@ -140,13 +152,19 @@ body {
   border-bottom: 1px solid #dedede;
 }
 
-.trending-menu-item:first-child {
-  color: black;
-}
-
 .trending-menu-item {
   color: #807F84;
   font-weight: bold;
+}
+
+.trending-menu-item:hover {
+  color: #f72211;
+  cursor: pointer;
+}
+
+.trending-menu-item:first-child {
+  color: black;
+  cursor: default;
 }
 
  /**
