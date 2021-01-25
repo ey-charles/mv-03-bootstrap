@@ -4,7 +4,6 @@
  * lg > 992px
  */
 
-
 /**
  * Main theme
  * ======================
@@ -55,7 +54,7 @@ body {
 }
 
 .t-color-gray {
-  color: #807F84;
+  color: #807f84;
 }
 
 .t-color-darkgray {
@@ -84,37 +83,36 @@ body {
   padding-left: 4px;
 }
 
-
 /**
  * Topbar
  * ======================
  **/
- .topbar-logo {
-   fill: white;
-   width: 106px;
- }
+.topbar-logo {
+  fill: white;
+  width: 106px;
+}
 
- .topbar-logo svg {
-   max-width: 100%;
- } 
+.topbar-logo svg {
+  max-width: 100%;
+}
 
- .topbar-icon {
-   font-size: 1.5rem;
- }
+.topbar-icon {
+  font-size: 1.5rem;
+}
 
- .topbar-login {
-   text-transform: uppercase;
-   font-weight: 700;
-   cursor: pointer;
- }
+.topbar-login {
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+}
 
- @media (min-width: 992px) {
-   .topbar-logo {
-     width: 396px;
-   }
- }
+@media (min-width: 992px) {
+  .topbar-logo {
+    width: 396px;
+  }
+}
 
- /**
+/**
  * Page navigation
  * ======================
  **/
@@ -153,7 +151,7 @@ body {
 }
 
 .trending-menu-item {
-  color: #807F84;
+  color: #807f84;
   font-weight: bold;
 }
 
@@ -167,7 +165,7 @@ body {
   cursor: default;
 }
 
- /**
+/**
  * Footer
  * ======================
  **/
