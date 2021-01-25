@@ -36,6 +36,10 @@ body {
   color: white;
 }
 
+.t-color-black {
+  color: black;
+}
+
 .t-font-roboto {
   font-family: 'Roboto Condensed', sans-serif;
 }
@@ -69,7 +73,7 @@ body {
 
  .topbar-logo svg {
    max-width: 100%;
- }
+ } 
 
  .topbar-icon {
    font-size: 1.5rem;
@@ -97,8 +101,41 @@ body {
 .pagenav-item {
   font-weight: 700;
   letter-spacing: 0.05em;
-  padding: 0 0.3rem;
   border-right: 1px solid #d9d9d9;
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.pagenav-item > li {
+  border: none;
+}
+
+.pagenav-search-container {
+  border: none;
+}
+
+.pagenav-search {
+  border: none;
+  outline: none;
+  width: 60px;
+}
+
+.trending-bar-menu {
+  border-top: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
+}
+
+.trending-menu-item:first-child {
+  color: black;
+}
+
+.trending-menu-item {
+  color: #807F84;
+  font-weight: bold;
+}
+
+.footer-logo {
+  width: 236px;
 }
