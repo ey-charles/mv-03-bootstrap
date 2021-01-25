@@ -11,6 +11,7 @@
  **/
 
 body {
+  font-size: 11px;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
@@ -47,6 +48,7 @@ body {
 .t-btn {
   color: black;
   font-weight: 700;
+  font-size: 13px;
   background: #fee400;
   border: none;
   border-radius: 15px;
@@ -136,6 +138,3 @@ body {
   font-weight: bold;
 }
 
-.footer-logo {
-  width: 236px;
-}
