@@ -181,13 +181,43 @@ body {
   font-size: 0.75rem;
 }
 
+.footer-nav-link:hover {
+  color: black;
+  cursor: pointer;
+}
+
 .footer-nav-item {
   padding-right: 0.5rem;
   margin-right: 0.5rem;
 }
 
+footer .bi {
+  cursor: pointer;
+}
+
+.bi-facebook:hover {
+  color: #3b5998;
+}
+
+.bi-twitter:hover {
+  color: #1da1f2;
+}
+
+.bi-instagram:hover {
+  color: #405de6;
+}
+
+.bi-youtube:hover {
+  color: #c4302b;
+}
+
+.bi-linkedin:hover {
+  color: #0077b5;
+}
+
 @media (min-width: 768px) {
   .footer-nav-item {
     border-right: 1px solid #dedede;
+    font-size: 0.9rem;
   }
 }
