@@ -1,0 +1,83 @@
+
+/** Breakpoints:
+ * md > 768px
+ * lg > 992px
+ */
+
+
+/**
+ * Main theme
+ * ======================
+ **/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.t-bg-red {
+  background-color: #f72211;
+}
+
+.t-color-red {
+  color: #f72211;
+}
+
+.t-color-white {
+  color: white;
+}
+
+.t-font-roboto {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.t-btn {
+  color: black;
+  font-weight: 700;
+  background: #fee400;
+  border: none;
+  border-radius: 15px;
+  padding-left: 0.75rem;
+  padding-right: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  display: flex;
+}
+
+.t-btn-icon {
+  padding-left: 4px;
+}
+
+
+/**
+ * Topbar
+ * ======================
+ **/
+
+ .topbar {
+   /* padding: 0; */
+ }
+
+ .topbar-logo {
+   fill: white;
+   width: 132px;
+ }
+
+ .topbar-logo svg {
+   max-width: 100%;
+ }
+
+ .topbar-icon {
+   font-size: 1.5rem;
+ }
+
+ .topbar-login {
+   text-transform: uppercase;
+   font-weight: 700;
+ }
+
+ @media (min-width: 992px) {
+   .topbar-logo {
+     width: 396px;
+   }
+ }
