@@ -236,3 +236,15 @@ footer .bi {
     font-size: 0.9rem;
   }
 }
+
+.newsletter-btn {
+  background: #f72211;
+  border: none;
+  display: block;
+  width: 100%;
+}
+
+.newsletter-btn-icon {
+  position: relative;
+  top: -0.15em;
+}
