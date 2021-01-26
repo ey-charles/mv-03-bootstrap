@@ -33,7 +33,7 @@ body {
 }
 
 .t-bg-gray {
-  background-color: #f4f5f6;
+  background-color: #e4e5e6;
 }
 
 .t-bg-verydark-gray {
@@ -170,14 +170,6 @@ body {
 }
 
 /**
- * Main content
- * ======================
- **/
-
-
-
-
-/**
  * Featured stories
  * ======================
  **/
@@ -185,6 +177,10 @@ body {
 .story-picture img {
   width: 100%;
   height: auto;
+}
+
+.story-image {
+  width: 100%;
 }
 
 /**
