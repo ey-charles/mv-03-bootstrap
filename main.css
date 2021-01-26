@@ -92,7 +92,7 @@ body {
   padding-left: 4px;
 }
 
-.t-size-s  { font-size: 0.85em; }
+.t-size-s { font-size: 0.85em; }
 .t-size-xs { font-size: 0.75em; }
 
 .t-highlightable-text:hover {
@@ -188,9 +188,8 @@ body {
  * ======================
  **/
 
- .vs-separator::before {
+.vs-separator::before {
   top: calc(50% - 2px);
-
   content: "";
   display: block;
   background-color: #d9d9d9;
@@ -279,12 +278,11 @@ footer .bi {
   .newsletter {
     max-width: 330px;
   }
-
 }
 
 @media (min-width: 992px) {
-  .card{
-    max-width: fit-content;
+  .card {
+    max-width: none;
   }
 }
 
