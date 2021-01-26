@@ -44,6 +44,10 @@ body {
   background-color: white;
 }
 
+.t-bg-black {
+  background-color: #000;
+}
+
 .t-color-red {
   color: #f72211;
   fill: #f72211;
@@ -91,6 +95,16 @@ body {
 .t-size-s  { font-size: 0.85em; }
 .t-size-xs { font-size: 0.75em; }
 
+.t-highlightable-text:hover {
+  cursor: pointer;
+  color: #f72211;
+}
+
+.t-red-underlineable-text:hover {
+  cursor: pointer;
+  text-decoration: underline #f72211;
+}
+
 /**
  * Topbar
  * ======================
@@ -130,11 +144,6 @@ body {
   flex-grow: 1;
 }
 
-.pagenav-item:hover {
-  cursor: pointer;
-  color: #f72211;
-}
-
 .pagenav-search {
   outline: none;
   width: 60px;
@@ -165,9 +174,7 @@ body {
  * ======================
  **/
 
- .main-content {
 
- }
 
 
 /**
@@ -181,9 +188,45 @@ body {
 }
 
 /**
+ * The debate
+ * ======================
+ **/
+
+ .vs-separator::before {
+  top: calc(50% - 2px);
+
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.vs-separator::after {
+  top: 50%;
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.versus-logo {
+  z-index: 1;
+  width: 32px;
+  height: 32px;
+  color: #d6d6d6;
+}
+
+/**
  * Footer
  * ======================
  **/
+
 .footer-logo {
   width: 236px;
 }
@@ -234,6 +277,18 @@ footer .bi {
   .footer-nav-item {
     border-right: 1px solid #dedede;
     font-size: 0.9rem;
+  }
+
+  .card,
+  .newsletter {
+    max-width: 330px;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .card{
+    max-width: fit-content;
   }
 }
 
