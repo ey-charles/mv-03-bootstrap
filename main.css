@@ -22,12 +22,6 @@ body {
   }
 }
 
-@media (min-width: 992px) {
-  body {
-    font-size: 18px;
-  }
-}
-
 .t-bg-red {
   background-color: #f72211;
 }
