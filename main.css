@@ -40,6 +40,10 @@ body {
   background-color: #c2d4d7;
 }
 
+.t-bg-light-gray {
+  background-color: #f4f5f6;
+}
+
 .t-bg-translucid {
   background: rgba(255,255,255,.9);
 }
@@ -233,6 +237,32 @@ body {
 
 .magazine-feature {
   background: #e4e5e6;
+}
+
+/**
+ * Newsletter
+ * ======================
+ **/
+
+ .trump-img {
+   top: 13px;
+   left: 80px;
+ }
+
+.newsletter-img {
+  height: 170px;
+  background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5") center center / cover no-repeat;
+}
+
+.newsletter-email-address{
+  text-indent: 9px;
+}
+
+.sign-up-button {
+  background: url(https://g.newsweek.com/www/images/free-sign-up.svg) center/108px no-repeat #f61602;
+  font-size: 0;
+  height: 38px;
+  border-radius: 0px 3px 3px 0px;
 }
 
 /**
