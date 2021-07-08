@@ -94,6 +94,37 @@ img {
   text-decoration: underline #f72211;
 }
 
+img {
+  transition: all 1s;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+li {
+  transition: all 3s;
+}
+
+li:hover {
+  animation-name: crotation;
+  animation-duration: 1s;
+}
+
+@keyframes crotation {
+  0% {
+    background-color: white;
+  }
+
+  50% {
+    background-color: red;
+  }
+
+  50% {
+    background-color: green;
+  }
+}
+
 /**
  * Topbar
  * ======================
